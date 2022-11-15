@@ -52,3 +52,25 @@ function populateList(list)
 let shoppingList = ["cheese", "bread", "green pepper"];
 
 populateList(shoppingList);
+
+function changeListType()
+{
+    // unorderedListElement.classList.add("squareList");
+    // unorderedListElement.classList.remove("circleList");
+
+    //using replace
+
+    unorderedListElement.classList.replace("circleList", "squareList");
+}
+
+changeListType()
+
+function updateImage(){
+    const imageElement = document.querySelector("#shoppingCart");
+    console.log(imageElement);
+    imageElement.src = "https://cdn-icons-png.flaticon.com/512/263/263142.png"
+    imageElement.width = 100;
+    imageElement.height = 100;
+    imageElement.alt = "shopping cart icon";
+}
+updateImage();

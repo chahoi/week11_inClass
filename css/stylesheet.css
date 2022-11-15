@@ -1,7 +1,7 @@
-function sleepy (name) {
-    /* let my_status = "I am sleepy as fuck" */
-    const = 
-    console.log(my_status)
+.squareList{
+    list-style-type: square;
 }
 
-sleepy ();
+.circleList{
+    list-style-type: circle;
+}
