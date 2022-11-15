@@ -74,3 +74,19 @@ function updateImage(){
     imageElement.alt = "shopping cart icon";
 }
 updateImage();
+
+function findGreen()
+{
+    const listItems = document.querySelectorAll(".shopping li");
+    // console.log(listItems);
+    for (let i = 0; i < listItems.length; i++)
+    {
+        // console.log(listItems[i]);
+        if(listItems[i].textContent.includes("green")){
+            console.log(listItems[i]);
+            listItems[i].classList.add("greenText");
+        }
+        
+    }
+}
+findGreen();
